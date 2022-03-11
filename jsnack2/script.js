@@ -18,4 +18,13 @@ for( let i=0; i < 5; i++){
         nuovoNumero = parseInt(prompt(`${i+1} Inserisci un numero`))
     
 
+
+// somma dei numeri inseriti dall'utente
+somma+= nuovoNumero;
+        
 }
+
+
+
+//console log della somma
+console.log('La somma dei numeri è:' + somma);
