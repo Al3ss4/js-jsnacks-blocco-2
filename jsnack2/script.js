@@ -37,3 +37,13 @@ let somma =0;
 
 // add var i 
 var i=0
+
+//add while con i < 5
+
+while( i < 5){
+    let nuovoNumero;
+
+    //prompt per chiedere i 5 numeri all utente
+    nuovoNumero = parseInt(prompt(`${i+1} Inserisci un numero`))
+
+}
