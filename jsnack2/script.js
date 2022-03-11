@@ -46,4 +46,10 @@ while( i < 5){
     //prompt per chiedere i 5 numeri all utente
     nuovoNumero = parseInt(prompt(`${i+1} Inserisci un numero`))
 
+//sommatoria dei numeri inseriti dall'utente
+    somma+= nuovoNumero;
+    i++;
 }
+
+// console log della somma
+console.log(somma);
